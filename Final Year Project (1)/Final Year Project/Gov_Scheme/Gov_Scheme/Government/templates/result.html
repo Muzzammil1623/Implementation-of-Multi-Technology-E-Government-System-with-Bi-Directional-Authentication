@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Result</title>
+
+  <script src="https://kit.fontawesome.com/47101d2035.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+      body{
+        background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+      }
+      /* span{
+        text-transform: uppercase;
+        font-size: 60px;
+        color: whitesmoke;
+      }  */
+     h1{
+      text-transform: uppercase;
+      font-size: 40px;
+      font-weight: bolder;
+     margin-top: 80px;
+     color: rgb(230, 11, 11);
+      }
+      .center {
+        width: 70%;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, -50%);
+        font-family: Arial, Helvetica, sans-serif;
+        
+      }
+      strong {
+        font-size: 15px;
+        color: rgb(7, 7, 7);
+      }
+      p{
+        color: black;
+        text-align: justify;
+      }
+      
+    </style>
+</head>
+
+<body class="center">
+  {% load static %}
+  {% if result == 'scheme_A' %} 
+  <h1>Moovalur Ramamirtham Ammaiyar Ninaivu Marriage Assistance Scheme</h1>
+  <img src="{% static 'Marriage.jpg' %}" class="img-fluid" alt="Responsive image"><br>
+    <p> <strong>DESCRIPTION:</strong> <br>Moovalur Ramamirtham Ammaiyar Ninaivu Marriage Assistance Scheme-1" is a flagship scheme announced by the Hon’ble Chief Minister of Tamil Nadu. The scheme is implemented by the Social Welfare Department, Govt. of Tamil Nadu. Under the scheme, Cash Assistance of ₹ 25,000/- and an 8-gram gold coin is given to brides who have studied Class 10th. This scheme is only applicable for the marriage conducted from 17th May 2011 onwards. The objective of the scheme is to help financially poor parents in getting their daughters married. In most communities, it is a customary cultural requirement for a girl to wear “Thirumangalyam” made of gold during marriage and the parents celebrate the marriage function according to their customs and cultural backgrounds. "Moovalur Ramamirtham Ammaiyar Ninaivu Marriage Assistance Scheme-1" is one of the Five Marriage Assistance Schemes introduced by the Govt. of Tamil Nadu to help such parents and to encourage them to educate their daughters till the right age.<br>
+      <strong>Benefits:</strong> <br>
+        1. Cash assistance of ₹ 25,000 (paid through the Electronic Clearing Service ECS).<br>
+        2. One Sovereign (8 gram) 22-carat Gold Coin.
+        NOTE: In case of death of parents, assistance is given to the daughter.
+    <br><strong>Link:</strong><br>https://www.tn.gov.in/scheme/data_view/3464</p>
+{% elif result == 'scheme_B' %} 
+  <h1>CHIEF MINISTER’S GIRL CHILD PROTECTION SCHEME</h1>
+  <img src="{% static 'CHILD PROTECTION SCHEME.jpg' %}" class="img-fluid" alt="Responsive image">
+  <p> <strong>DESCRIPTION:</strong> <br>The Girl Child Protection Scheme is aimed at preventing gender discrimination by empowering and protecting rights of girl Children through direct investment from Government. It is being implemented in Tamil Nadu state. <br>
+    <strong>Benefits:</strong> <br>
+    <b>Scheme-I :</b>
+    An amount of Rs. 50,000 is deposited in the name of the girl child born on or after 01/08/2011, in the form of fixed deposit with the Tamil Nadu Power Finance and Infrastructure Development Corporation Limited, for a family with one girl child only. The copy of the fixed deposit receipt is given to the family of the girl child.
+    <b>Scheme-II :</b>
+    An amount of Rs. 25,000 is deposited in the names of two girl children born on or after 01/08/2011 in the form of fixed deposit with Tamil Nadu Power Finance and Infrastructure Development Corporation Limited, for a family with two girl children only. The copy of the fixed deposit receipt is given to the family of the girl children.
+    An annual incentive of Rs.1800 is given to the girl child every year from the 6th year of deposit in order to meet education expenses. The above deposit is renewed at the end of every 5 years and on completion of 18 years of age the amount deposited along with interest will be given to the girl child. To get this benefit, the girl child should appear for 10th standard public examination.
+    From the year 2013-14, the benefits provided under the Marriage Assistance Scheme have also been extended to the beneficiaries under the Girl Child Protection Scheme who were enrolled in the years from 1992 to 1995.
+  <br>
+  <strong>Link:</strong><br>https://www.tnsocialwelfare.tn.gov.in/en</p>
+  {% elif result == 'scheme_C' %}  
+  <h1>Indira Gandhi National Widow Pension Scheme</h1>
+  <img src="{% static 'Widow Pension Scheme.jpg' %}" class="img-fluid" alt="Responsive image">
+  <p> <strong>DESCRIPTION:</strong> <br>Indira Gandhi National Widow Pension Scheme (IGNWPS) is implemented by Ministry of Rural Development, Government of India. It is a non-contributory pension scheme to provide social security to widows of poor family (BPL) of the society. <br>
+    <strong>Benefits:</strong> <br>
+    A pension of Rs.300/- per month is provided to Widows between 40 years and 79 years. For persons who are 80 years and above the pension is Rs.500/- per month. 
+  <br>
+  <strong>Link:</strong> <br>
+    https://web.umang.gov.in/web_new/home </p>
+  {% elif result == 'scheme_D' %}  
+  <h1>National Means-Cum-Merit Scholarship Scheme</h1>
+  <img src="{% static 'Merit.jpg' %}" class="img-fluid" alt="Responsive image">
+  <p> <strong>DESCRIPTION:</strong> <br>A scholarship scheme by the Department of School Education & Literacy, Ministry of Education wherein 1,00,000 scholarships is offered to the gifted or meritorious students whose parental income is not more than ₹3,50,000/- per annum from all sources at the time of selection of awardees for a scholarship. Each State /UT has a fixed quota of scholarships for the concerned age group of class 7th and 8th. The scheme will provide reservations to different categories of students as per the State/UT norms; as different States/UTs have their own norms of reservation. The scholarship is being implemented since 2008 with an objective to award scholarships to meritorious students of economically weaker sections to arrest their drop out at class 8th and encourage them to continue their studies at the secondary stage. The scheme has been approved for continuation for another 5 years during the period of the 15th Finance Commission cycle from 2021-22 to 2025-26.<br>
+    <strong>Benefits:</strong> <br>
+    Under this scheme, 1,00,000 fresh scholarships @ Rs. 12,000/- per annum (₹1,000 per month) are awarded to meritorious students every year at the Class IX level, which can be continued up to Class 12th.
+    The sanction of funds will be done from the Annual Budget Provision for releasing them to SBI, the implementing bank for the scheme for disbursal of scholarships, to students directly into their bank accounts by electronic transfer through Direct Benefit Transfer (DBT).
+    The awardees will be required to open bank accounts preferably in SBI, any public sector bank, or any scheduled bank which has a core banking facility.
+  <br>
+  <strong>Link:</strong><br>http://www.scholarships.gov.in/</p>
+  {% elif result == 'scheme_E' %}  
+  <h1>NSAP - Indira Gandhi National Old Age Pension Scheme</h1><br>
+  <img src="{% static 'oldage_pension.jpg' %}" class="img-fluid" alt="Responsive image">
+  <p> <strong>DESCRIPTION:</strong> <br>The scheme is implemented as part of the National Social Assistance Program (NSAP) of the Ministry of Rural Development, Government of India. It is a non-contributory scheme and provides a monthly income for citizens or to refugees above 60 years, who have no other source of income.<br>
+    <strong>Eligibility :</strong><br>•	Age: 60 years and above<br>
+    •	Should be Below Poverty Line (BPL).
+    <br>
+    <strong>Benefits:</strong> <br>
+    
+    A monthly pension of Rs 600 - Rs 1000 depending upon the state share of the pension.
+  <br>
+  <strong>Link:</strong><br>https://www.tnesevai.tn.gov.in/Pages/ServiceList.aspx
+{% else %}
+  <h1 style="color: rgb(31, 15, 15); font-weight: 900;">ERROR</h1>
+{% endif %}
+
+</body>
+
+</html>
